@@ -11,7 +11,8 @@ const Bookmark = ({credit, index}) => {
 };
 
 Bookmark.propTypes = {
-    credit : PropTypes.object
+    credit : PropTypes.object,
+    index : PropTypes.number
 };
 
 export default Bookmark;
