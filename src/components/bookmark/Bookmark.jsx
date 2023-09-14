@@ -10,7 +10,6 @@ const Bookmark = ({credit}) => {
     );
 };
 Bookmark.propTypes ={
-    credit : PropTypes.object.isRequired,
-    count : PropTypes.number
+    credit : PropTypes.object.isRequired
 }
 export default Bookmark;
