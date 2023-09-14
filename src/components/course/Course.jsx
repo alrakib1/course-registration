@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 const Course = ({ course, handleCredit }) => {
-//   console.table(course);
+
   const { courseName, courseDetails, creditHours, price, img } = course;
   return (
     <div >
