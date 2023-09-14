@@ -9,8 +9,8 @@ const Bookmarks = ({credits,remainingHour, hours, price}) => {
         <h4 className="text-lg font-bold text-[#2F80ED] mb-4">Credit Hour Remaining {remainingHour} hr</h4>
         <hr className="mb-4" />
         <h3 className="font-bold text-xl mb-5">Course Name</h3>
-      <div>{credits.map((credit, idx) => (
-        <Bookmark key={idx} credit={credit}></Bookmark>
+      <div>{credits.map((credit, index) => (
+        <Bookmark key={index} index={index} credit={credit}></Bookmark>
       ))}</div>
       <hr className="mt-6 mb-6"/>
       <h3 className="text-base font-medium mb-4">Total Credit Hour : {hours} </h3>

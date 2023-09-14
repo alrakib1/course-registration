@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { FiDollarSign } from 'react-icons/fi';
 import { HiOutlineBookOpen } from 'react-icons/hi';
-const Course = ({ course, handleCredit }) => {
+const Course = ({ course, handleCredit}) => {
   const { courseName, courseDetails, creditHours, price, img } = course;
   return (
     <div className="w-80 bg-white shadow-xl rounded-lg">

@@ -16,7 +16,6 @@ function App() {
   const handleCredit = (course) => {
     const duplicate = credits.find((credit) => credit.id === course.id);
     const newCourse = [...credits, course];
-    console.table(course);
     if (duplicate) {
       toast.warn("You can not add same course twice", {
         position: "bottom-center",
