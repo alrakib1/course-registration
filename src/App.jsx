@@ -2,7 +2,6 @@ import { useState } from "react";
 import "./App.css";
 import Bookmarks from "./components/Bookmarks/Bookmarks";
 import Courses from "./components/courses/Courses";
-import React from "react";
 
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -35,7 +34,7 @@ function App() {
       setHours(hours + course.creditHours);
       setPrice(price + course.price);
     } else {
-      toast.error('maximum hours limit crossed', {
+      toast.error("maximum hours limit crossed", {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -44,7 +43,7 @@ function App() {
         draggable: true,
         progress: undefined,
         theme: "light",
-        });
+      });
     }
   };
 
