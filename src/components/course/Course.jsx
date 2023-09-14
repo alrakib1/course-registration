@@ -1,31 +1,28 @@
-const Course = ({ course }) => {
-  console.table(course);
-  const { id, courseName, courseDetails, creditHours, price, img } = course;
+import PropTypes from 'prop-types';
+const Course = ({ course, handleCredit }) => {
+//   console.table(course);
+  const { courseName, courseDetails, creditHours, price, img } = course;
   return (
     <div >
-      <div class="card w-96 bg-base-100 shadow-xl">
-        <figure class="px-10 pt-10">
-          <img
-            className="w-full"
-            src={img}
-            alt={`image of ${courseName}`}
-            class="rounded-xl"
-          />
-        </figure>
-        <div class="card-body">
-          <h2 class="card-title text-lg font-semibold">{courseName}</h2>
-          <p className="text-sm font-normal text-gray-700">{courseDetails}</p>
-          <div className="flex justify-between">
-            <p className="text-base font-medium text-gray-700">Price:{price}</p>
-            <p className="text-base font-medium text-gray-700">Credit: {creditHours}hr</p>
+      <div className='w-80 bg-white shadow-xl rounded-lg'>
+        <div className='flex items-center justify-center'><img src={img} alt={`image of ${courseName}`} className='mt-4'/></div>
+        <div className='p-4'>
+        <h2 className="card-title text-lg font-semibold mb-3">{courseName}</h2>
+          <p className="text-sm font-normal text-[rgba(28, 27, 27, 0.60)] mb-4">{courseDetails}</p>
+          <div className="flex justify-between mb-6">
+            <p className="text-base font-medium text-[rgba(28, 27, 27, 0.60)]">Price:{price}</p>
+            <p className="text-base font-medium text-[rgba(28, 27, 27, 0.60)]">Credit: {creditHours}hr</p>
           </div>
-          <div class="card-actions mx-auto">
-            <button class="btn text-center bg-blue-400 w-80 normal-case text-lg font-semibold text-white" >Select</button>
+          <div className=" mx-auto">
+            <button className="btn text-center bg-blue-400 w-72 normal-case text-lg font-semibold text-white" onClick={()=>handleCredit(course)} >Select</button>
           </div>
         </div>
       </div>
     </div>
   );
 };
-
+Course.propTypes ={
+    course : PropTypes.object.isRequired,
+    handleCredit : PropTypes.func
+}
 export default Course;
