@@ -19,7 +19,7 @@ function App() {
     const duplicate = credits.find((credit) => credit.id === course.id);
     const newCourse = [...credits, course];
     if (duplicate) {
-      toast.warn("Already exits", {
+      toast.warn("Already exits in cart", {
         position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,
@@ -35,7 +35,7 @@ function App() {
       setHours(hours + course.creditHours);
       setPrice(price + course.price);
     } else {
-      toast.error("maximum hours limit crossed", {
+      toast.error("Credit hour limit is crossed", {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,
