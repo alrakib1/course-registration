@@ -10,14 +10,16 @@ function App() {
   const [credits, setCredits] = useState([]);
 
   const [remainingHour, setRemainingHour] = useState(20);
+
   const [price, setPrice] = useState(0);
+  
   const [hours, setHours] = useState(0);
 
   const handleCredit = (course) => {
     const duplicate = credits.find((credit) => credit.id === course.id);
     const newCourse = [...credits, course];
     if (duplicate) {
-      toast.warn("You can not add same course twice", {
+      toast.warn("Already exits", {
         position: "bottom-center",
         autoClose: 5000,
         hideProgressBar: false,

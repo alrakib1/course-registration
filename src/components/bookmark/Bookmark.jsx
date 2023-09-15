@@ -1,10 +1,9 @@
 import  PropTypes  from 'react';
 
 const Bookmark = ({credit, index}) => {
-    console.log(index)
     const {courseName} = credit;
     return (
-        <div className=''>
+        <div>
             <h4 className='text-[rgba(28, 27, 27, 0.60)] text-base font-normal'>{index + 1}. {courseName}</h4>
          </div>
     );
