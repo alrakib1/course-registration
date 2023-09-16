@@ -35,7 +35,7 @@ function App() {
       setHours(hours + course.creditHours);
       setPrice(price + course.price);
     } else {
-      toast.error("Credit hour limit is crossed", {
+      toast.error("Credit hour limit crossed", {
         position: "top-center",
         autoClose: 5000,
         hideProgressBar: false,

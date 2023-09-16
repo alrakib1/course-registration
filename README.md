@@ -5,7 +5,7 @@ A brief description of features and how I handled useState of react in this part
 ## Features
 
 - Click on Select and selected Course Name, Price and Total Hours will be shown at cart section.
-- If you cross the the remaining hour which is 20 hours, it will throw a toast that says "Credit hour limit is crossed".
+- If you cross the the remaining hour which is 20 hours, it will throw a toast that says "Credit hour limit crossed".
 - If you select the same file again, it won't let you add same course twice on cart. It will throw a toast that says "Already exits in cart" .
 - You won't be able to add another course to cart if you exceed the remaining time.
 - Dynamically shows data

@@ -1,74 +1,74 @@
 [
-    {
-      "id": 1,
-      "courseName": "Introduction to C Programming",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 1,
-      "price": 15000,
-      "img": "https://i.ibb.co/Y295mLq/Rectangle-2-2.png"
-    },
-    {
-      "id": 2,
-      "courseName": "Introduction to Algorithms",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 2,
-      "price": 25000,
-      "img": "https://i.ibb.co/L9XxZ8Q/Rectangle-2-3.png"
-    },
-    {
-      "id": 3,
-      "courseName": "Introduction to C++ for DSA",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 10,
-      "price": 10000,
-      "img": "https://i.ibb.co/B28c0xm/Rectangle-2-4.png"
-    },
-    {
-      "id": 4,
-      "courseName": "Basic Data Structures",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 5,
-      "price": 35000,
-      "img": "https://i.ibb.co/Pr03DZy/Rectangle-3.png"
-    },
-    {
-      "id": 5,
-      "courseName": "Introduction to OOP Python",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 5,
-      "price": 19000,
-      "img": "https://i.ibb.co/FsYmMDZ/Rectangle-2.png"
-    },
-    {
-      "id": 6,
-      "courseName": "Software Engineering",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 2,
-      "price": 23000,
-      "img": "https://i.ibb.co/8gtFTRw/Rectangle-2-5.png"
-    },
-    {
-      "id": 7,
-      "courseName": "AWS, Cloud Computing",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 5,
-      "price": 35000,
-      "img": "https://i.ibb.co/2h8bB9y/Rectangle-3-1.png"
-    },
-    {
-      "id": 8,
-      "courseName": "Database (MySQL)",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 5,
-      "price": 19000,
-      "img": "https://i.ibb.co/QmMPk7K/Rectangle-2-1.png"
-    },
-    {
-      "id": 9,
-      "courseName": "Problem-Solving Part",
-      "courseDetails": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
-      "creditHours": 2,
-      "price": 23000,
-      "img": "https://i.ibb.co/F66Py2r/Rectangle-2-6.png"
-    }
-  ]
+  {
+    "id": 1,
+    "courseName": "Introduction to C Programming",
+    "courseDetails": "Introduction to C Programming: covers basics, syntax, and concepts in C for beginners, emphasizing problem-solving and foundational coding skills.",
+    "creditHours": 1,
+    "price": 15000,
+    "img": "https://i.ibb.co/Y295mLq/Rectangle-2-2.png"
+  },
+  {
+    "id": 2,
+    "courseName": "Introduction to Algorithms",
+    "courseDetails": "Introduction to Algorithms: Covers fundamental algorithm design and analysis, emphasizing problem-solving and algorithmic thinking.",
+    "creditHours": 2,
+    "price": 25000,
+    "img": "https://i.ibb.co/L9XxZ8Q/Rectangle-2-3.png"
+  },
+  {
+    "id": 3,
+    "courseName": "Introduction to C++ for DSA",
+    "courseDetails": "Introduction to C++ for Data Structures and Algorithms: Learn C++ basics and algorithmic thinking for efficient problem-solving.",
+    "creditHours": 10,
+    "price": 10000,
+    "img": "https://i.ibb.co/B28c0xm/Rectangle-2-4.png"
+  },
+  {
+    "id": 4,
+    "courseName": "Basic Data Structures",
+    "courseDetails": "Basic Data Structures: course covers fundamental concepts in data structures, including arrays, linked lists, stacks, and queues.",
+    "creditHours": 5,
+    "price": 35000,
+    "img": "https://i.ibb.co/Pr03DZy/Rectangle-3.png"
+  },
+  {
+    "id": 5,
+    "courseName": "Introduction to OOP Python",
+    "courseDetails": "Introduction to OOP Python: covers object-oriented programming principles using Python, focusing on classes, inheritance, and encapsulation.",
+    "creditHours": 5,
+    "price": 19000,
+    "img": "https://i.ibb.co/FsYmMDZ/Rectangle-2.png"
+  },
+  {
+    "id": 6,
+    "courseName": "Software Engineering",
+    "courseDetails": "Software Engineering: course teaches software development methodologies, project management, and best practices for building high-quality software systems.",
+    "creditHours": 2,
+    "price": 23000,
+    "img": "https://i.ibb.co/8gtFTRw/Rectangle-2-5.png"
+  },
+  {
+    "id": 7,
+    "courseName": "AWS, Cloud Computing",
+    "courseDetails": "AWS, Cloud Computing: offers comprehensive training on Amazon Web Services, covering cloud infrastructure and services for scalable applications.",
+    "creditHours": 5,
+    "price": 35000,
+    "img": "https://i.ibb.co/2h8bB9y/Rectangle-3-1.png"
+  },
+  {
+    "id": 8,
+    "courseName": "Database (MySQL)",
+    "courseDetails": "Database (MySQL): teaches relational database concepts, SQL queries, and MySQL database management for efficient data storage and retrieval.",
+    "creditHours": 5,
+    "price": 19000,
+    "img": "https://i.ibb.co/QmMPk7K/Rectangle-2-1.png"
+  },
+  {
+    "id": 9,
+    "courseName": "Problem-Solving Part",
+    "courseDetails": "Problem-Solving Part: hones critical thinking, algorithms, and coding skills for effective problem-solving in various contexts.",
+    "creditHours": 2,
+    "price": 23000,
+    "img": "https://i.ibb.co/F66Py2r/Rectangle-2-6.png"
+  }
+]
