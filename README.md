@@ -12,7 +12,7 @@ A brief description of features and how I handled useState of react in this part
 
 ## Discussion on how I managed useState in this project
 
-At first, on Courses.jsx file, I use useState for an empty array. Then I have used useEffect to fetch data from courses.json file. Then I set the data I go from json on setCourses. Then I have passed those data on Course.jsx using map. On Course.jsx file, I used a button named ;select'. By clicking on it, I have sent course as parameter which is an object.
+At first, on Courses.jsx file, I use useState for an empty array. Then I have used useEffect to fetch data from courses.json file. Then I set the data I got from json on setCourses. Then I have passed those data on Course.jsx using map. On Course.jsx file, I used a button named 'select'. By clicking on it, I have sent course as parameter which is an object.
 
 On App.jsx, I used useState for an empty array. By using a function named handleCredit, I got a new parameter from Course.jsx file and used it to create a new array of object. Then I have passed the array on Bookmarks.jsx file. From there I send it to Bookmark.jsx file by using map.
 
